@@ -27,7 +27,7 @@ to add a `package.json` to your project
 Used node module HTTP to build a simple web server that we can then run and connect using the web address: `http://localhost:3000/`.
 To run the server use the command `node index.js`
 
-```
+```js
 var http = require('http');
 
 http.createServer(function(request, response){
@@ -46,6 +46,7 @@ To add express node module to our application:
 `npm install --save express`
 To ensure it was added successfully , check your `package.json` for:
 ```js
+
 "dependencies": {
   "express": "^4.15.3"
 }
@@ -73,3 +74,4 @@ app.listen(3000, function(){
   console.log('Listening on port 3000');
 });
 ```
+#### Requesting parameters
