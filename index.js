@@ -1,9 +1,16 @@
 //index.js
-var http = require('http');
+var express = require('express');
+var app = express();
+//req--request
+//res--response
+app.get('/greeting', function(req,res){
+  res.send("Woohoo you found the greeting endpoint!")
+});
 
-http.createServer(function(request, response){
-  response.writeHead(200, {'Content-Type': 'text/plain'});
-  response.end('Hello World!');
-}).listen(3000, function(){
-  console.log('App is listening on port 3000')
+//Challenge: define a salutations endpoint
+app.get('/salutaions', function(req,res){
+  res.send("Thank you Mr. Node!")
+});
+app.listen(3000, function(){
+  console.log('Listening on port 3000');
 });

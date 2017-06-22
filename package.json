@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hannah-Rauser-406/intro-to-node---PR-TEST/issues"
   },
-  "homepage": "https://github.com/Hannah-Rauser-406/intro-to-node---PR-TEST#readme"
+  "homepage": "https://github.com/Hannah-Rauser-406/intro-to-node---PR-TEST#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
