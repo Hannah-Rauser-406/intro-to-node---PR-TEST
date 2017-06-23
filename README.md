@@ -75,3 +75,14 @@ app.listen(3000, function(){
 });
 ```
 #### Requesting parameters
+TODO-- notes about parameters
+
+
+
+####
+NodeMon
+
+NodeMon will watch our files automatically and restart our server so we dont have to manually.
+
+'nodemon index.js' --> to start server
+how to install: 'sudo npm install -g nodemon'
